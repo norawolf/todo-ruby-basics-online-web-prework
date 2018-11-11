@@ -1,3 +1,5 @@
+require 'pry'
+
 def division(num1, num2)
   num1 / num2
 end
@@ -12,6 +14,7 @@ end
 
 def greeting(greeting, name)
   puts "#{greeting} #{name}"
+  binding.pry
 end
 
 def return_a_value
