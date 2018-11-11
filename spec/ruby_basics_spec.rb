@@ -1,5 +1,4 @@
 require 'spec_helper'
-require 'pry'
 require_relative '../lib/ruby_basics.rb'
 
 
